@@ -20,6 +20,7 @@ public class Main {
 
 		System.out.print("Choose a number: ");
 
+
 		switch (scanner.nextInt()) {
 		case 1:
 			pdfOperations.splitPDFAfterPages();
